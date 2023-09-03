@@ -49,18 +49,6 @@ ul{
     color: var(--c-brand);
 }
 
-.nav-link{
-    color: var(--c-brand);
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.nav-link:hover{
-    color: var(--c-hover);
-    text-decoration: underline;
-}
-
 .nav-link-one{
     color: var(--c-brand);
     font-weight: 500;
@@ -78,9 +66,12 @@ ul{
     text-decoration: underline;
 }
 
+.info-page{
+    font-style: normal;
+}
+
 .info{
     color: var(--c-primary);
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -163,9 +154,12 @@ ul{
     text-transform: capitalize;
 }
 
+.list{
+    background-color: var(--c-primary-light);
+}
+
 .name{
     color: var(--c-brand);
-    background-color: var(--c-primary-light);
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -174,7 +168,6 @@ ul{
 }
 
 .work-name{
-    background-color: var(--c-primary-light);
     text-align: center;
     font-weight: 400;
     line-height: 1.5;
