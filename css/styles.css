@@ -126,6 +126,11 @@ ul{
     background-color: var(--c-hover);
 }
 
+.button:focus{
+    color: var(--c-primary-light);
+    background-color: var(--c-hover);
+}
+
 .second-section{
     background-color: var(--c-primary-light);
 }
@@ -178,10 +183,6 @@ ul{
 
 .four{
     background-color: var(--c-primary-light);
-}
-
-.images{
-    width: 360px;
 }
 
 .action{
